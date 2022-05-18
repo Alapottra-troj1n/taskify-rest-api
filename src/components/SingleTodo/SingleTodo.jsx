@@ -10,11 +10,11 @@ const SingleTodo = () => {
 
 
                 <div className=" sm:flex justify-end md:justify-center hidden">
-                    <h2 className="font-normal text-xs lg:text-sm w-24 md:w-48 ">TaskName</h2>
+                    <h2 className="font-normal text-xs lg:text-sm w-24 md:w-48 text-slate-500">TaskName</h2>
                 </div>
 
                 <div className="mx-4">
-                    <h2 className="font-semibold text-sm lg:text-lg text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ratione nihil impedit id. Consequuntur quos expedita, magnam aliquid, dolorem quisquam necessitatibus ratione assumenda dolor illum blanditiis libero fugit dolores nam!</h2>
+                    <h2 className="font-semibold text-slate-500 text-sm lg:text-lg text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam ratione nihil impedit id. Consequuntur quos expedita, magnam aliquid, dolorem quisquam necessitatibus ratione assumenda dolor illum blanditiis libero fugit dolores nam!</h2>
                 </div>
 
                 <div className="ml-2 flex flex-col lg:flex-row">
